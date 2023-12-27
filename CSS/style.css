@@ -1,0 +1,151 @@
+body{ 
+    background: linear-gradient(to right,rgb(0, 0, 0), rgb(18, 0, 30) , #3b0040); 
+}
+/*Fuente*/
+@font-face {
+    font-family: 'BonitaFont'; 
+    src: url('../fonts/HelloboniaserifRegular-OVB1d.otf') format('opentype'); 
+    /* Agrega otros formatos según sea necesario (woff, woff2, etc.) */
+  }
+h2{
+    font-family: 'BonitaFont';
+    letter-spacing: 0.1em;
+}
+h3{
+    font-family: 'BonitaFont';
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+}
+/*Menu*/
+.nav-link{
+    color: rgb(186, 133, 162);
+    text-shadow: 2px 2px 5px rgb(255, 0, 140);
+}
+.nav-link:hover{
+    color: rgb(255, 0, 140);
+    text-shadow: 4px 4px 5px rgb(248, 177, 216);
+}
+
+header{
+    background: linear-gradient(to right,rgb(72, 0, 38), rgb(18, 0, 30) , #3b0040); 
+    font-family: 'BonitaFont';
+    letter-spacing: 0.1em;
+}
+
+.navbar h1 a{
+    background: url(../IMG/Fantassia-LOGO2.png) no-repeat center center;
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.navbar .navbar-toggler-icon{
+    background: url(../IMG/MenuHamburguesa.png) no-repeat center center;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.navbar .navbar-toggler{
+    border: none;
+}
+
+.navbar h1 {
+    height: 50px;
+}
+/*Carrucel*/
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(253, 3, 165);
+    border-radius: 50%;
+    
+}
+/*General*/
+p{
+    text-shadow: 2px 2px 4px rgb(252, 105, 201);
+}
+
+h2{
+    text-shadow: 2px 2px 4px rgb(252, 105, 201);
+    color: rgb(255, 255, 255);
+}
+
+p strong{
+    font-weight: 600;
+}
+
+/*Presentacion fiesta*/
+.presentacion{
+    text-shadow: 2px 2px 4px rgb(252, 105, 201);
+    text-align: justify;
+    width: 100%;
+}
+.pPresentacion{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/*Presentacion DJ*/
+.btn-Djmortel{
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.bnt-colapsar{
+    margin: auto;
+    background-color:  rgb(255, 115, 0);
+}
+
+.btn{
+    background-color: rgb(255, 115, 0);
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(255, 161, 85);
+}
+.texto-colapsar{
+    text-shadow: 2px 2px 4px rgb(252, 105, 201);
+    text-align: justify;
+    width: 100%;
+}
+
+/*Spotify*/
+.spotify{
+    border-style: none;
+}
+
+
+/*Cartas Generos*/
+.card-img{
+    width: 221px;
+    margin: auto;
+}
+
+.formulario{
+    margin: auto;
+}
+
+.textoCardGenero{
+    text-align: justify;
+}
+
+/*Entradas*/
+.Precio{
+    font-size: 1.5em;
+    font-weight: 900;
+    text-shadow: none;
+}
+
+footer{
+    background: linear-gradient(to right,rgb(157, 0, 84), rgb(181, 71, 255) , #3b0040);
+    border-style: inset;
+    border-color: rgb(170, 0, 255);
+    font-weight: 900;
+}
+
